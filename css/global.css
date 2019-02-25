@@ -17,6 +17,7 @@ body {
 .wrapper {
   margin: 0 auto;
   width: 400px;
+  height:600px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
@@ -24,13 +25,20 @@ body {
   padding: 1rem;
 }
 
+.information {
+  padding: 1rem;
+  color: #43c29e;
+}
+
 .header {
   position: relative;
   text-align: center;
 }
+
+/*origional padding is 3.5 rem 0 7rem"*/
 .header__text {
   position: relative;
-  padding: 3.5rem 0 7rem;
+  padding: 1.5rem 0 5rem;
 }
 .header__text > h1 {
   margin: 0;
@@ -45,4 +53,10 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background-position: top center;
   background:#43c29e;
+}
+
+.backbutton{
+  text-align:left;
+  margin-top: 0px;
+  padding-top: 0px;
 }
