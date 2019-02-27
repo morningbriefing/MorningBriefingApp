@@ -53,10 +53,15 @@ console.log(data);
       // translate Kelvin to Farenhait T(K) × 9/5 - 459.67
       farenheit = Math.floor(weatherData.main.temp * 9 / 5 - 459.67);
 
-      // display celsius by default
-      $('#celsius').append(celsius + 'ºC');
-      $("#min").append( minCelsius + 'ºC');
-      $("#max").append( maxCelsius + 'ºC');
+      // // display celsius by default
+      // $('#celsius').append(celsius + 'ºC');
+      // $("#min").append( minCelsius + 'ºC');
+      // $("#max").append( maxCelsius + 'ºC');
+
+      // display Farenheit by default
+      $('#farenheit').append(farenheit + 'ºF');
+      $("#min").append( minF + 'ºF');
+      $("#max").append( maxF + 'ºF');
     });
 
 

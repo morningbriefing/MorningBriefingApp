@@ -60,3 +60,24 @@ body {
   margin-top: 0px;
   padding-top: 0px;
 }
+
+#dropdown {
+  position: absolute;
+  float: top-left;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-position: top-left;
+  background-color: #42c29e;
+}
+#navbar{
+  position: absolute;
+  float: top-left;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 10%;
+  background-position: top-left;
+  background-color: #42c29e; 
+}
