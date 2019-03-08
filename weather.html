@@ -9,12 +9,26 @@
   <title>Morning Briefing Weather</title>
   <link rel="stylesheet" href="css/weather.css">
   <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <div class="wrapper">
   <header class="section header">
   <div class="rectangle"></div>
+  <!-- <div class="w3-bar" id = "navbar"> -->
+    <div class="w3-dropdown-hover" id="dropdown">
+      <button class="w3-button" id = "navbar"><i class="fa fa-bars"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="home.html" class="w3-bar-item w3-button">Home</a>
+        <a href="weather.html" class="w3-bar-item w3-button">Weather</a>
+        <a href="twitter.html" class="w3-bar-item w3-button">Twitter</a>
+        <a href="usageReport.html" class="w3-bar-item w3-button">Usage Report</a>
+        <a href="userProfile.html" class="w3-bar-item w3-button">My Account</a>
+        <a href="login.html" class="w3-bar-item w3-button">Sign Out</a>
+      </div>
+    </div>
   <div class="header__text">
     <h1 id="city"></h1>
     <div id="farenheit" class="temp-info"></div>
@@ -32,23 +46,26 @@
 <div class="description-container">
   <div class="block-1">
     <div class="text">
-      <span>Max</span>
+      <span>High: </span>
       <span id="max" class="important-info"> </span>
     </div>
     <div class="text">
-      <span>Min</span>
+      <span>Low : </span>
     <span id="min" class='important-info'> </span>
     </div>
 
   </div>
   <div class="block-2">
-    <div id="longitude" class=" text important-info">Lon: </div>
-    <div id="latitude" class="text important-info">Lat: </div>
-  </div>
-  <div class="block-3">
     <div id="humidity" class="text important-info">Humidity: </div>
     <div id="pressure" class="text important-info">Pressure: </div>
-    <div id="windSpeed" class="text important-info">Winds: </div>
+    <div class="text">
+      <span>Wind: </span>
+      <span id="windSpeed" class="important-info"> </span>
+    </div>
+  </div>
+  <div class="block-3">
+    <div id="longitude" class="text important-info">Lon: </div>
+    <div id="latitude" class="text important-info">Lat: </div>
   </div>
 </div>
 
